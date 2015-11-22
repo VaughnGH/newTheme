@@ -1,0 +1,68 @@
+html {
+  background-color: #FAFAFA;
+  font-size: 1rem;
+  /*text-align: center;*/
+}
+header {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.container {
+  margin: auto;
+  padding: 3rem 3rem 3rem 3rem;
+  max-width: 25rem;
+  align-items: center;
+}
+#name {
+  font-weight: lighter;
+}
+p {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  line-height: .8;
+  font-weight: bold;
+  letter-spacing: -.15rem;
+} h1 {
+  font-size: 2rem;
+} h2 {
+  font-size: 1.8rem;
+} h3 {
+  font-size: 1.6rem;
+} h4 {
+  font-size: 1.4rem;
+} h5 {
+  font-size: 1.2rem;
+}
+
+header::after {
+  margin: auto ;
+  height: 1px;
+  color: #A4DDED;
+  content: "-----------------------------------";
+}
+footer::before {
+  margin: 2rem auto;
+  height: 1px;
+  content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+}
+nav {
+  float: right;
+  margin-top: 1.4rem;
+  margin-right: 4rem;
+  margin-bottom: .5rem;
+  line-height: .8;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 0 0 20;
+}
+nav ul{
+  text-align: left;
+}
+nav a {
+  text-decoration:overline;
+}
