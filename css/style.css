@@ -13,13 +13,14 @@ header {
   align-items: center;
 }
 #name {
+  color: black;
   font-weight: lighter;
 }
 p {
   font-size: 16px;
 }
 a:link, a:visited, a:hover, a:active {
-  color: inherit;
+  color: black;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -54,16 +55,18 @@ header:after {
 }
 footer:before {
   margin: 2rem auto;
+  overflow: hidden;
   height: 1px;
   content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 }
 nav {
-  margin: 0rem 0rem 0rem 0rem;
   float: left;
-  line-height: .8;
+  line-height: .76;
 }
 nav li {
   padding-right: 2rem;
+  width: 100%;
+  padding-top: 1rem;
   list-style: none;
   display: inline;
 }
